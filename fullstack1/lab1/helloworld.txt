@@ -1,0 +1,8 @@
+mkdir <dir>
+git init
+code <dir>
+    {do stuff}
+git add /root_dir/Full Stack 1/Lab1/.
+git status
+git commit -m "did stuff"
+git push
