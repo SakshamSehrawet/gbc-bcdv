@@ -1,0 +1,27 @@
+{
+  "name": "vanity-ethereum-address",
+  "version": "1.0.0",
+  "description": "Vanity Ethereum Address",
+  "main": "VanityEthereumAddress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakshamSehrawet/gbc-bcdv.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Address"
+  ],
+  "author": "Saksham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakshamSehrawet/gbc-bcdv/issues"
+  },
+  "homepage": "https://github.com/SakshamSehrawet/gbc-bcdv#readme",
+  "dependencies": {
+    "ethereumjs-util": "^7.1.4",
+    "keccak256": "^1.0.6"
+  }
+}
