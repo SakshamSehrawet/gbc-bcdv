@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.io</title>
+  </head>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <body>
+    
+    <script>
+     
+      var socket = io();
+
+  
+      const connect = () => { alert('connect click');socket.emit('connectclicked'); }  
+      const disconnect = () => { alert('disconnect click');socket.emit('disconnectclicked')}
+      const send = () => { alert('send click');socket.emit('message')};
+      
+
+      
+    </script>
+    
+    <h1>Socket.io Lab</h1>
+    <button id="connect" onClick='connect()'/>Connect</button>
+    <button id="disconnect" onClick='disconnect()'>Disconnect</button>
+    <button id="send" onClick='send()'/>Send Message</button>
+  </body>
+</html>
